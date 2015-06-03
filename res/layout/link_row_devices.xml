@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/link_device_frame">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/m_person" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="name"
+            android:id="@+id/device_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:text="details"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:id="@+id/device_details"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+        <TextView 
+            android:text="点击连接"
+            android:textColor="#BFBBA4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="5sp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+    	<Button 
+	    	android:id="@+id/link_cancel"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginRight="15dp"
+	        android:visibility="gone"
+	        android:background="@drawable/link_cancel_selector"
+	        android:focusable="false"
+			android:focusableInTouchMode="false"
+       	 />
+</LinearLayout>

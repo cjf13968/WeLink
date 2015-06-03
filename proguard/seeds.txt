@@ -1,0 +1,324 @@
+al: void setImageBitmap(android.graphics.Bitmap)
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.baidu.cloudsdk.common.http.ConnectManager$NetworkType: com.baidu.cloudsdk.common.http.ConnectManager$NetworkType[] values()
+com.baidu.cloudsdk.common.http.ConnectManager$NetworkType: com.baidu.cloudsdk.common.http.ConnectManager$NetworkType valueOf(java.lang.String)
+com.baidu.cloudsdk.social.core.MediaType: com.baidu.cloudsdk.social.core.MediaType[] values()
+com.baidu.cloudsdk.social.core.MediaType: com.baidu.cloudsdk.social.core.MediaType valueOf(java.lang.String)
+com.baidu.cloudsdk.social.oauth.SocialOAuthActivity
+com.baidu.cloudsdk.social.oauth.SocialOAuthActivity: SocialOAuthActivity()
+com.baidu.cloudsdk.social.share.ShareContent
+com.baidu.cloudsdk.social.share.ShareContent: android.os.Parcelable$Creator CREATOR
+com.baidu.cloudsdk.social.share.SocialShare$UIWidgetStyle: com.baidu.cloudsdk.social.share.SocialShare$UIWidgetStyle[] values()
+com.baidu.cloudsdk.social.share.SocialShare$UIWidgetStyle: com.baidu.cloudsdk.social.share.SocialShare$UIWidgetStyle valueOf(java.lang.String)
+com.baidu.cloudsdk.social.share.handler.LocalShareActivity
+com.baidu.cloudsdk.social.share.handler.LocalShareActivity: LocalShareActivity()
+com.baidu.cloudsdk.social.share.handler.QQFriendShareReceiverActivity
+com.baidu.cloudsdk.social.share.handler.QQFriendShareReceiverActivity: QQFriendShareReceiverActivity()
+com.fived.welink.R$anim: int alpha
+com.fived.welink.R$anim: int back_bottom_out
+com.fived.welink.R$anim: int back_top_in
+com.fived.welink.R$anim: int fade
+com.fived.welink.R$anim: int hold
+com.fived.welink.R$anim: int mov
+com.fived.welink.R$anim: int push_bottom_in
+com.fived.welink.R$anim: int push_top_out
+com.fived.welink.R$dimen: int Medium_TextSize
+com.fived.welink.R$dimen: int Small_TextSize
+com.fived.welink.R$dimen: int Tiny_TextSize
+com.fived.welink.R$dimen: int activity_horizontal_margin
+com.fived.welink.R$dimen: int padding_large
+com.fived.welink.R$dimen: int padding_medium
+com.fived.welink.R$dimen: int padding_small
+com.fived.welink.R$drawable: int app_back_down
+com.fived.welink.R$drawable: int app_back_selector
+com.fived.welink.R$drawable: int app_back_up
+com.fived.welink.R$drawable: int app_download_down
+com.fived.welink.R$drawable: int app_download_selector
+com.fived.welink.R$drawable: int app_download_up
+com.fived.welink.R$drawable: int app_item_shape
+com.fived.welink.R$drawable: int app_left_select_btn
+com.fived.welink.R$drawable: int app_left_selected
+com.fived.welink.R$drawable: int app_refresh_down
+com.fived.welink.R$drawable: int app_refresh_selector
+com.fived.welink.R$drawable: int app_refresh_up
+com.fived.welink.R$drawable: int app_right_select_btn
+com.fived.welink.R$drawable: int app_right_selected
+com.fived.welink.R$drawable: int app_title_layer
+com.fived.welink.R$drawable: int chart_balloon_back_left
+com.fived.welink.R$drawable: int chart_balloon_back_right
+com.fived.welink.R$drawable: int chart_contactinfo_down
+com.fived.welink.R$drawable: int chart_contactinfo_selector
+com.fived.welink.R$drawable: int chart_contactinfo_up
+com.fived.welink.R$drawable: int chart_edit_fillet_shape
+com.fived.welink.R$drawable: int chart_exit_down
+com.fived.welink.R$drawable: int chart_exit_selector
+com.fived.welink.R$drawable: int chart_exit_up
+com.fived.welink.R$drawable: int chart_send_down
+com.fived.welink.R$drawable: int chart_send_selector
+com.fived.welink.R$drawable: int chart_send_up
+com.fived.welink.R$drawable: int chart_tran_down
+com.fived.welink.R$drawable: int chart_tran_selector
+com.fived.welink.R$drawable: int chart_tran_up
+com.fived.welink.R$drawable: int chat_title_layer
+com.fived.welink.R$drawable: int contact_2
+com.fived.welink.R$drawable: int contact_3
+com.fived.welink.R$drawable: int dialog_dialer
+com.fived.welink.R$drawable: int explorer_doc
+com.fived.welink.R$drawable: int explorer_folder
+com.fived.welink.R$drawable: int help_1
+com.fived.welink.R$drawable: int help_2
+com.fived.welink.R$drawable: int help_3
+com.fived.welink.R$drawable: int help_4
+com.fived.welink.R$drawable: int help_5
+com.fived.welink.R$drawable: int ic_launcher
+com.fived.welink.R$drawable: int icon
+com.fived.welink.R$drawable: int image1
+com.fived.welink.R$drawable: int image2
+com.fived.welink.R$drawable: int image3
+com.fived.welink.R$drawable: int image4
+com.fived.welink.R$drawable: int image5
+com.fived.welink.R$drawable: int image6
+com.fived.welink.R$drawable: int image7
+com.fived.welink.R$drawable: int image8
+com.fived.welink.R$drawable: int link_cancel_down
+com.fived.welink.R$drawable: int link_cancel_selector
+com.fived.welink.R$drawable: int link_cancel_up
+com.fived.welink.R$drawable: int link_change_name
+com.fived.welink.R$drawable: int link_device_frame
+com.fived.welink.R$drawable: int link_help_down
+com.fived.welink.R$drawable: int link_help_selector
+com.fived.welink.R$drawable: int link_help_up
+com.fived.welink.R$drawable: int link_menu_down
+com.fived.welink.R$drawable: int link_menu_selector
+com.fived.welink.R$drawable: int link_menu_up
+com.fived.welink.R$drawable: int link_search_down
+com.fived.welink.R$drawable: int link_search_selector
+com.fived.welink.R$drawable: int link_search_up
+com.fived.welink.R$drawable: int m_person
+com.fived.welink.R$drawable: int m_person2
+com.fived.welink.R$drawable: int m_person3
+com.fived.welink.R$drawable: int m_person_dark
+com.fived.welink.R$drawable: int machine
+com.fived.welink.R$drawable: int nima
+com.fived.welink.R$drawable: int notif_download
+com.fived.welink.R$drawable: int notif_send
+com.fived.welink.R$drawable: int whats_btn_style_one_disabled
+com.fived.welink.R$drawable: int whats_btn_style_one_focused
+com.fived.welink.R$drawable: int whats_btn_style_one_normal
+com.fived.welink.R$drawable: int whats_btn_style_one_pressed
+com.fived.welink.R$drawable: int whats_friendactivity_personalportrait
+com.fived.welink.R$drawable: int whats_friendactivity_personalportrait_default
+com.fived.welink.R$drawable: int whats_new_start_btn
+com.fived.welink.R$drawable: int whats_new_start_btn_normal
+com.fived.welink.R$drawable: int whats_new_start_btn_pressed
+com.fived.welink.R$drawable: int whats_new_tip_bg
+com.fived.welink.R$drawable: int whats_page
+com.fived.welink.R$drawable: int whats_page_now
+com.fived.welink.R$drawable: int white_dot
+com.fived.welink.R$id: int RelativeLayout01
+com.fived.welink.R$id: int RelativeLayout02
+com.fived.welink.R$id: int app_listview
+com.fived.welink.R$id: int back_button
+com.fived.welink.R$id: int chart_top_exit
+com.fived.welink.R$id: int chat_bottom_edittext
+com.fived.welink.R$id: int chat_bottom_linear
+com.fived.welink.R$id: int chat_bottom_tran
+com.fived.welink.R$id: int chat_buttom_send
+com.fived.welink.R$id: int chat_contact_name
+com.fived.welink.R$id: int chat_list
+com.fived.welink.R$id: int chat_title
+com.fived.welink.R$id: int chat_top_contactinfo
+com.fived.welink.R$id: int chatlist_image_me
+com.fived.welink.R$id: int chatlist_image_other
+com.fived.welink.R$id: int chatlist_text_me
+com.fived.welink.R$id: int chatlist_text_other
+com.fived.welink.R$id: int content_view_image
+com.fived.welink.R$id: int content_view_progress
+com.fived.welink.R$id: int content_view_text1
+com.fived.welink.R$id: int device_details
+com.fived.welink.R$id: int device_name
+com.fived.welink.R$id: int drawview
+com.fived.welink.R$id: int faceLayout
+com.fived.welink.R$id: int fill_the_gap
+com.fived.welink.R$id: int frag_list
+com.fived.welink.R$id: int gallery
+com.fived.welink.R$id: int icon
+com.fived.welink.R$id: int img
+com.fived.welink.R$id: int info
+com.fived.welink.R$id: int linearLayout1
+com.fived.welink.R$id: int link_appname
+com.fived.welink.R$id: int link_cancel
+com.fived.welink.R$id: int link_change_name
+com.fived.welink.R$id: int link_help
+com.fived.welink.R$id: int link_icon
+com.fived.welink.R$id: int link_menu
+com.fived.welink.R$id: int link_search
+com.fived.welink.R$id: int link_send
+com.fived.welink.R$id: int link_share
+com.fived.welink.R$id: int link_title
+com.fived.welink.R$id: int my_name
+com.fived.welink.R$id: int my_status
+com.fived.welink.R$id: int myappCheck
+com.fived.welink.R$id: int myappImage
+com.fived.welink.R$id: int myappInfo
+com.fived.welink.R$id: int myappName
+com.fived.welink.R$id: int myappbtn
+com.fived.welink.R$id: int myapploading
+com.fived.welink.R$id: int otherappButton
+com.fived.welink.R$id: int otherappImage
+com.fived.welink.R$id: int otherappInfo
+com.fived.welink.R$id: int otherappName
+com.fived.welink.R$id: int otherappbtn
+com.fived.welink.R$id: int otherapploading
+com.fived.welink.R$id: int otherappprogressBar
+com.fived.welink.R$id: int page0
+com.fived.welink.R$id: int page1
+com.fived.welink.R$id: int page2
+com.fived.welink.R$id: int page3
+com.fived.welink.R$id: int page4
+com.fived.welink.R$id: int page5
+com.fived.welink.R$id: int refresh
+com.fived.welink.R$id: int start_image
+com.fived.welink.R$id: int start_text
+com.fived.welink.R$id: int title
+com.fived.welink.R$id: int viewPager
+com.fived.welink.R$id: int whats_new_start_btn
+com.fived.welink.R$id: int whats_six_t
+com.fived.welink.R$id: int whatsnew_viewpager
+com.fived.welink.R$layout: int app_activity
+com.fived.welink.R$layout: int app_listview
+com.fived.welink.R$layout: int app_myapp_item
+com.fived.welink.R$layout: int app_otherapp_item
+com.fived.welink.R$layout: int chart_activity
+com.fived.welink.R$layout: int chat_listitem_me
+com.fived.welink.R$layout: int chat_listitem_other
+com.fived.welink.R$layout: int explorer_listview
+com.fived.welink.R$layout: int link_change_name
+com.fived.welink.R$layout: int link_device_list
+com.fived.welink.R$layout: int link_dialog
+com.fived.welink.R$layout: int link_main
+com.fived.welink.R$layout: int link_row_devices
+com.fived.welink.R$layout: int notif_content_view
+com.fived.welink.R$layout: int start_activity
+com.fived.welink.R$layout: int tmp_activity
+com.fived.welink.R$layout: int whats_activity_main
+com.fived.welink.R$layout: int whats_news_gallery_five
+com.fived.welink.R$layout: int whats_news_gallery_four
+com.fived.welink.R$layout: int whats_news_gallery_one
+com.fived.welink.R$layout: int whats_news_gallery_six
+com.fived.welink.R$layout: int whats_news_gallery_three
+com.fived.welink.R$layout: int whats_news_gallery_two
+com.fived.welink.R$menu: int main_menu
+com.fived.welink.R$string: int app_name
+com.fived.welink.R$string: int whats_new_daybeforeyesterday
+com.fived.welink.R$string: int whats_new_guangzhou
+com.fived.welink.R$string: int whats_new_march
+com.fived.welink.R$string: int whats_new_msg1
+com.fived.welink.R$string: int whats_new_msg3
+com.fived.welink.R$string: int whats_new_start
+com.fived.welink.R$string: int whats_new_tip
+com.fived.welink.R$string: int whats_new_title2
+com.fived.welink.R$string: int whats_new_title3
+com.fived.welink.R$string: int whats_new_title4
+com.fived.welink.R$string: int whats_new_title5
+com.fived.welink.R$string: int whats_new_title6
+com.fived.welink.R$string: int whats_new_title7_01
+com.fived.welink.R$string: int whats_new_title7_02
+com.fived.welink.R$string: int whats_new_today
+com.fived.welink.R$string: int whats_new_yesterday
+com.fived.welink.R$style: int AppBaseTheme
+com.fived.welink.R$style: int AppTheme
+com.fived.welink.R$style: int Theme_Holo_NoTitleBar
+com.fived.welink.R$style: int whats_new_icon
+com.fived.welink.R$style: int whats_new_icon_msg
+com.fived.welink.R$style: int whats_new_icon_title
+com.fived.welink.R$style: int whats_new_img
+com.fived.welink.R$style: int whats_new_msg
+com.fived.welink.R$style: int whats_new_title
+com.fived.welink.R$styleable: int[] HelloGallery
+com.fived.welink.R$styleable: int HelloGallery_android_galleryItemBackground
+com.fived.welink.appshare.AppShareMainActivity
+com.fived.welink.appshare.AppShareMainActivity: AppShareMainActivity()
+com.fived.welink.bgservice.SocketService
+com.fived.welink.bgservice.SocketService: SocketService()
+com.fived.welink.chart.ChartMainActivity
+com.fived.welink.chart.ChartMainActivity: ChartMainActivity()
+com.fived.welink.fileshare.FileShareMainActivity
+com.fived.welink.fileshare.FileShareMainActivity: FileShareMainActivity()
+com.fived.welink.game.FiveChessMainActivity
+com.fived.welink.game.FiveChessMainActivity: FiveChessMainActivity()
+com.fived.welink.welcome.HelpActivity
+com.fived.welink.welcome.HelpActivity: HelpActivity()
+com.fived.welink.welcome.StartActivity
+com.fived.welink.welcome.StartActivity: StartActivity()
+com.fived.welink.wifidirect.DeviceListFragment
+com.fived.welink.wifidirect.DeviceListFragment: DeviceListFragment()
+com.fived.welink.wifidirect.WiFiDirectActivity
+com.fived.welink.wifidirect.WiFiDirectActivity: WiFiDirectActivity()
+com.fived.welink.wifidirect.WiFiDirectActivity: void showPopup(android.view.View)

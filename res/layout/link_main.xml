@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/link_title"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="#3C424C"
+        android:paddingLeft="8dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/link_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/link_appname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/link_icon"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+
+        <ImageButton
+            android:id="@+id/link_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:onClick="showPopup"
+            android:src="@drawable/link_menu_selector" />
+
+        <Button
+            android:id="@+id/link_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/link_menu"
+            android:background="@drawable/link_search_selector" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/frag_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.fived.welink.wifidirect.DeviceListFragment" >
+
+            <!-- Preview: layout=@layout/row_devices -->
+        </fragment>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+# view res/layout/app_activity.xml #generated:90
+# view res/layout/whats_activity_main.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.baidu.cloudsdk.social.oauth.SocialOAuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.baidu.cloudsdk.social.share.handler.LocalShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.baidu.cloudsdk.social.share.handler.QQFriendShareReceiverActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.fived.welink.appshare.AppShareMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.fived.welink.bgservice.SocketService { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.fived.welink.bgservice.TmpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.fived.welink.chart.ChartMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.fived.welink.fileshare.FileShareMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.fived.welink.game.FiveChessMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.fived.welink.welcome.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.fived.welink.welcome.StartActivity { <init>(...); }
+
+# view res/layout/link_main.xml #generated:60
+-keep class com.fived.welink.wifidirect.DeviceListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.fived.welink.wifidirect.WiFiDirectActivity { <init>(...); }
+
+# onClick res/layout/link_main.xml #generated:33
+-keepclassmembers class * { *** showPopup(...); }
+

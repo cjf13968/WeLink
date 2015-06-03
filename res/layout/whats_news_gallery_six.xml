@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/help_1" >
+
+    <TextView
+        android:id="@+id/whats_six_t"
+        style="@style/whats_new_title"
+        android:layout_above="@+id/whats_new_start_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="70dp"
+        android:text="更多精彩，等你来发现"
+        android:textColor="#000000"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/whats_new_start_btn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+        android:background="@drawable/whats_new_start_btn"
+        android:gravity="center"
+        android:text="开始"
+        android:textColor="#ffffffff"
+        android:textSize="10pt" />
+
+</RelativeLayout>

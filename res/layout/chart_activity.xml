@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 頂部 -->
+
+    <LinearLayout
+        android:id="@+id/chat_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:layout_alignParentTop="true"
+        android:background="#3C424C" >
+
+        <Button
+            android:id="@+id/chart_top_exit"
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:layout_weight="1"
+            android:background="@drawable/chart_exit_selector" />
+
+        <TextView
+            android:id="@+id/chat_contact_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="WifiDirect"
+            android:textColor="@android:color/white"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/chat_top_contactinfo"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dip"
+            android:layout_weight="1"
+            android:background="@drawable/chart_contactinfo_selector" />
+    </LinearLayout>
+    <!-- 聊天內容 -->
+
+    <RelativeLayout
+        android:id="@+id/faceLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true" >
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </FrameLayout>
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </TabWidget>
+            </LinearLayout>
+        </TabHost>
+
+        <LinearLayout
+            android:id="@+id/fill_the_gap"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#272b34"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/faceLayout"
+        android:layout_below="@id/chat_title"
+        android:background="#f0f0f0"
+        android:divider="#aaaaaa"
+        android:dividerHeight="0px"
+        android:fadingEdge="none"
+        android:paddingBottom="60dip" >
+    </ListView>
+    <!-- 底部 -->
+
+    <LinearLayout
+        android:id="@+id/chat_bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/faceLayout"
+        android:background="#3C424C"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/chat_bottom_tran"
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:background="@drawable/chart_tran_selector" />
+
+        <EditText
+            android:id="@+id/chat_bottom_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="7dip"
+            android:layout_weight="7"
+            android:background="@drawable/chart_edit_fillet_shape"
+            android:gravity="top"
+            android:maxLines="3"
+            android:padding="3dip" />
+
+        <Button
+            android:id="@+id/chat_buttom_send"
+            android:layout_width="0dp"
+            android:layout_height="30dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dip"
+            android:layout_weight="2"
+            android:background="@drawable/chart_send_selector"
+            android:gravity="center"
+            android:text="发送"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

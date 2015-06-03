@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <!-- 頂部 -->
+    <!-- 将layout_width设为0，weight按数值分配 -->
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:layout_alignParentTop="true"
+        android:background="#3C424C"
+        android:paddingLeft="8dp"
+        android:paddingRight="10dp" >
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/app_back_selector"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/myappbtn"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:background="@drawable/app_left_selected"
+            android:focusable="true"
+            android:text="我的应用"
+            android:textColor="@android:color/white"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/otherappbtn"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:background="@drawable/app_right_select_btn"
+            android:text="Ta的应用"
+            android:textColor="@android:color/white"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_height="25dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dp"
+            android:text="分享"
+            android:textColor="#ffffff"
+            android:textSize="7pt" />
+    </LinearLayout>
+    <!-- app內容 -->
+
+    <TextView
+        android:id="@+id/myapploading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text=""
+        android:visibility="visible"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+    
+        <TextView
+        android:id="@+id/otherapploading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text=""
+        android:visibility="invisible"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title" />
+
+</RelativeLayout>

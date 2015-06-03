@@ -1,0 +1,16 @@
+{
+client_ids:
+{
+baidu:"HHUNpHcZCApzbeRIAXctQxhL",
+sinaweibo:"",
+qqdenglu:"",
+qqfriend:"",
+weixin:"wx5ec16d383404a718"
+},
+client_names:
+{
+qqfriend:"WeLink"
+},
+sso_medias:
+["sinaweibo","qqweibo","qqdenglu","kaixin","renren","qqfriend","weixin","weixin_timeline","email","sms"]
+}

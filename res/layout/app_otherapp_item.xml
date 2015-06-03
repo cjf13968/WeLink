@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_item_shape"
+    android:paddingBottom="4dip"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <ProgressBar
+        android:id="@+id/otherappprogressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:progress="0" />
+
+    <ImageView
+        android:id="@+id/otherappImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/otherappName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/otherappImage"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/otherappImage"
+        android:maxLength="30"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/otherappInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/otherappName"
+        android:layout_below="@+id/otherappName"
+        android:layout_toRightOf="@+id/otherappImage"
+        android:maxLength="20"
+        android:textColor="#707070" />
+
+    <Button
+        android:id="@+id/otherappButton"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/app_download_selector"
+        android:text="下载" />
+
+
+</RelativeLayout>
